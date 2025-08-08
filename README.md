@@ -1,1 +1,1 @@
-This is just to lrearn JavaScript
+This is just to learn JavaScript
