@@ -1,7 +1,7 @@
 function showweatherDetails(event) {
       event.preventDefault();
        const city = document.getElementById('city').value;
-      const apiKey = '4c0b00186913cf7173d1ff69b0ea58a5';
+      const apiKey = 'your api';
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
        fetch(apiUrl)
         .then(response => response.json())
